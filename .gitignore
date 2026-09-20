@@ -41,6 +41,8 @@ ENV/
 models/
 *.pkl
 *.h5
+!cached_models/
+!cached_models/**/*.pkl
 
 # OS
 Thumbs.db
