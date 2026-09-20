@@ -15,8 +15,10 @@ __pycache__/
 *.ipynb_checkpoints
 
 # Data (Large files)
-data/
-*.csv
+data/*
+!data/processed/
+data/processed/*
+!data/processed/aq_weather_clean.csv
 *.xlsx
 *.json
 *.parquet
@@ -47,7 +49,3 @@ models/
 # OS
 Thumbs.db
 Desktop.ini
-
-data/
-*.csv
-!data/processed/aq_weather_clean.csv
