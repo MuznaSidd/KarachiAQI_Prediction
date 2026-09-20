@@ -47,3 +47,7 @@ models/
 # OS
 Thumbs.db
 Desktop.ini
+
+data/
+*.csv
+!data/processed/aq_weather_clean.csv
