@@ -24,7 +24,7 @@ CACHED_MODELS_DIR = "cached_models"  # models get copied here after every succes
 
 st.set_page_config(page_title="Pearls AQI Predictor", layout="wide", page_icon="🏙️")
 st.sidebar.title("🏙️ Pearls AQI Predictor")
-st.sidebar.caption("Air Quality Intelligence · Karachi")
+st.sidebar.caption("Air Quality Index · Karachi")
 page = st.sidebar.radio("Navigation", ["Forecast Dashboard", "EDA Dashboard"])
 
 # ---------------------- AQI color & hazard ----------------------
